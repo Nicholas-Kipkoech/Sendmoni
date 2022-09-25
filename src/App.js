@@ -73,6 +73,31 @@ function App() {
             </div>
           </div>
         </div>
+        <div id="Why">
+          <div className="Why-container">
+            <div className="Why-title">Why SendMoni </div>
+            <div className="text-why">
+              <p>
+                <strong>Time</strong>
+              </p>
+              <p>
+                Reduce manual processing of cheque, cash, and bank transfer
+                payments between borders
+              </p>
+              <p>
+                <strong>Fast and Secure Payments</strong>
+              </p>
+              <p>
+                Realtime transaction for small businesses, large organizations
+                and individual payments
+              </p>
+              <p>
+                <strong>Transparency</strong>
+              </p>
+              <p>Transparent exchange rates and transfer charges</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
