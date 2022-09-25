@@ -1,0 +1,144 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  padding-top: 20px;
+  /* padding-bottom: 10px; */
+}
+.menu ul {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+.menu a {
+  display: block;
+  text-decoration: none;
+}
+.menu li {
+  list-style: none;
+}
+.title-container {
+  margin-top: 20px;
+  display: flex;
+}
+.navbar {
+  position: fixed;
+}
+.card-title {
+  /* font-family: sans-serif; */
+  font-size: 60px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.card-info {
+  margin-top: 30px;
+  font-size: 22px;
+  /* font-family: sans-serif; */
+}
+.img1 {
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding-left: 50px;
+  padding-top: 55px;
+}
+.img2 {
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding-left: 20px;
+}
+
+#about {
+  margin-top: 30px;
+  display: flex;
+  background-color: #dc143c;
+  box-sizing: border-box;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#solutions {
+  margin-top: 30px;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 15px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.solutions-title {
+  font-size: 42px;
+  font-weight: 900;
+}
+.solutions-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+.text-solution {
+  font-size: 20px;
+  font-family: sans-serif, "helvetica";
+}
+.about-title {
+  font-size: 42px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-weight: 900;
+  /* padding-left: 50%; */
+}
+.text-about {
+  font-size: 20px;
+  font-family: sans-serif, "helvetica";
+}
+
+.images {
+  height: 580px;
+  width: 780px;
+  background-color: whitesmoke;
+  border-radius: 580px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.google {
+  height: 55px;
+  width: 280px;
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(231, 20, 82, 1) 35%,
+    rgb(114, 129, 132) 100%
+  );
+  color: white;
+  margin-top: 36px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+.apple {
+  height: 55px;
+  width: 280px;
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    rgb(226, 52, 52) 0%,
+    rgba(231, 20, 82, 1) 35%,
+    rgb(216, 34, 34) 100%
+  );
+  color: white;
+  margin-top: 36px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+.about-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
